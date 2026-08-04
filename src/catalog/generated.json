@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T16:20:23.665Z",
+  "generatedAt": "2026-08-04T16:45:19.848Z",
   "shelves": [
     {
       "id": "foundations",
@@ -13,94 +13,170 @@
       "id": "bible-kjv",
       "gutenbergId": 10,
       "title": "The Holy Bible",
-      "subtitle": "King James Version",
+      "status": "ready",
+      "shelf": "foundations",
+      "sort": 10,
       "authors": [
-        "Trad."
+        "Canonical Assembly"
       ],
       "language": "en",
       "year": 1611,
-      "shelf": "foundations",
-      "sort": 10,
-      "status": "ready",
-      "blurb": "The book that taught the English-speaking world how to speak of God, law, and conscience. Poetry and commandment in one binding.\n",
+      "blurb": "Sacred text.",
       "cover": "covers/bible-kjv.svg",
       "cloth": {
-        "board": "#2a1218",
-        "spine": "#14080c",
-        "foil": "#c9a45c",
-        "endpaper": "#3a1c22"
+        "board": "#3A1316",
+        "spine": "#3A1316",
+        "foil": "#D4AF37",
+        "endpaper": "#3A1316"
       },
       "spineMotif": "cross",
       "binding": {
         "height": 1,
-        "depth": 0.96,
-        "thickness": 1.35
+        "depth": 1,
+        "thickness": 1.3
       },
       "readerTheme": {
-        "displayFamily": "Cormorant Garamond",
-        "bodyFamily": "Source Serif 4",
-        "ink": "#1a1210",
-        "paper": "#f4eadc",
-        "accent": "#8b3a3a",
+        "displayFamily": "Cinzel",
+        "bodyFamily": "EB Garamond",
+        "ink": "#1C1B1A",
+        "paper": "#F2EBD9",
+        "accent": "#D4AF37",
         "measureCh": 58,
         "dropCaps": true
       },
       "samplePages": [
         {
-          "title": "The Holy Bible",
-          "body": "King James Version"
-        },
-        {
-          "title": "Alexandria",
-          "body": "Curated among the founding volumes of this working collection."
+          "title": "Bible",
+          "body": "KJV"
         }
       ],
       "_file": "bible-kjv.yaml"
     },
     {
-      "id": "homer-iliad",
-      "gutenbergId": 6130,
-      "title": "The Iliad",
-      "subtitle": "Translated by Samuel Butler",
-      "authors": [
-        "Homer"
-      ],
-      "language": "en",
-      "year": -750,
+      "id": "aristotle-ethics",
+      "gutenbergId": 8438,
+      "title": "aristotle-ethics",
+      "status": "ready",
       "shelf": "foundations",
       "sort": 20,
-      "status": "ready",
-      "blurb": "Rage, honor, and the cost of glory. The first great Western poem of war — and of what war does to the living.\n",
-      "cover": "covers/homer-iliad.svg",
+      "authors": [
+        "Trad."
+      ],
+      "language": "en",
+      "year": 0,
+      "blurb": "Canonical volume.",
+      "cover": "covers/aristotle-ethics.svg",
       "cloth": {
-        "board": "#3a2814",
-        "spine": "#1e140a",
-        "foil": "#d4a574",
-        "endpaper": "#4a3420"
+        "board": "#222",
+        "spine": "#111",
+        "foil": "#D4AF37",
+        "endpaper": "#222"
       },
-      "spineMotif": "meander",
+      "spineMotif": "cross",
       "binding": {
-        "height": 0.94,
+        "height": 1,
         "depth": 1,
-        "thickness": 1.05
+        "thickness": 1
       },
       "readerTheme": {
-        "displayFamily": "Cormorant Garamond",
-        "bodyFamily": "Source Serif 4",
-        "ink": "#181208",
-        "paper": "#f2e8d8",
-        "accent": "#8b5a2b",
+        "displayFamily": "Cinzel",
+        "bodyFamily": "EB Garamond",
+        "ink": "#111",
+        "paper": "#F8F5EE",
+        "accent": "#D4AF37",
         "measureCh": 60,
         "dropCaps": true
       },
       "samplePages": [
         {
-          "title": "The Iliad",
-          "body": "Homer · Samuel Butler"
-        },
+          "title": "aristotle-ethics",
+          "body": "Alexandria"
+        }
+      ],
+      "_file": "aristotle-ethics.yaml"
+    },
+    {
+      "id": "aurelius-meditations",
+      "gutenbergId": 2680,
+      "title": "aurelius-meditations",
+      "status": "ready",
+      "shelf": "foundations",
+      "sort": 20,
+      "authors": [
+        "Trad."
+      ],
+      "language": "en",
+      "year": 0,
+      "blurb": "Canonical volume.",
+      "cover": "covers/aurelius-meditations.svg",
+      "cloth": {
+        "board": "#222",
+        "spine": "#111",
+        "foil": "#D4AF37",
+        "endpaper": "#222"
+      },
+      "spineMotif": "cross",
+      "binding": {
+        "height": 1,
+        "depth": 1,
+        "thickness": 1
+      },
+      "readerTheme": {
+        "displayFamily": "Cinzel",
+        "bodyFamily": "EB Garamond",
+        "ink": "#111",
+        "paper": "#F8F5EE",
+        "accent": "#D4AF37",
+        "measureCh": 60,
+        "dropCaps": true
+      },
+      "samplePages": [
         {
-          "title": "Alexandria",
-          "body": "Sing, goddess — from a shelf built for lasting company."
+          "title": "aurelius-meditations",
+          "body": "Alexandria"
+        }
+      ],
+      "_file": "aurelius-meditations.yaml"
+    },
+    {
+      "id": "homer-iliad",
+      "gutenbergId": 6130,
+      "title": "homer-iliad",
+      "status": "ready",
+      "shelf": "foundations",
+      "sort": 20,
+      "authors": [
+        "Trad."
+      ],
+      "language": "en",
+      "year": 0,
+      "blurb": "Canonical volume.",
+      "cover": "covers/homer-iliad.svg",
+      "cloth": {
+        "board": "#222",
+        "spine": "#111",
+        "foil": "#D4AF37",
+        "endpaper": "#222"
+      },
+      "spineMotif": "cross",
+      "binding": {
+        "height": 1,
+        "depth": 1,
+        "thickness": 1
+      },
+      "readerTheme": {
+        "displayFamily": "Cinzel",
+        "bodyFamily": "EB Garamond",
+        "ink": "#111",
+        "paper": "#F8F5EE",
+        "accent": "#D4AF37",
+        "measureCh": 60,
+        "dropCaps": true
+      },
+      "samplePages": [
+        {
+          "title": "homer-iliad",
+          "body": "Alexandria"
         }
       ],
       "_file": "homer-iliad.yaml"
@@ -108,146 +184,45 @@
     {
       "id": "plato-republic",
       "gutenbergId": 1497,
-      "title": "The Republic",
-      "subtitle": "Translated by Benjamin Jowett",
+      "title": "plato-republic",
+      "status": "ready",
+      "shelf": "foundations",
+      "sort": 20,
       "authors": [
-        "Plato"
+        "Trad."
       ],
       "language": "en",
-      "year": -375,
-      "shelf": "foundations",
-      "sort": 30,
-      "status": "ready",
-      "blurb": "Justice argued until the city becomes a soul. Still the West’s longest conversation about how we ought to live together.\n",
+      "year": 0,
+      "blurb": "Canonical volume.",
       "cover": "covers/plato-republic.svg",
       "cloth": {
-        "board": "#1a2438",
-        "spine": "#0e1420",
-        "foil": "#c4b896",
-        "endpaper": "#243048"
+        "board": "#222",
+        "spine": "#111",
+        "foil": "#D4AF37",
+        "endpaper": "#222"
       },
-      "spineMotif": "cave",
+      "spineMotif": "cross",
       "binding": {
-        "height": 0.97,
-        "depth": 0.98,
-        "thickness": 0.95
-      },
-      "readerTheme": {
-        "displayFamily": "Cormorant Garamond",
-        "bodyFamily": "Source Serif 4",
-        "ink": "#101820",
-        "paper": "#eef2f6",
-        "accent": "#3d5a80",
-        "measureCh": 60,
-        "dropCaps": true
-      },
-      "samplePages": [
-        {
-          "title": "The Republic",
-          "body": "Plato · Benjamin Jowett"
-        },
-        {
-          "title": "Alexandria",
-          "body": "Leave the cave — then return to the shelf."
-        }
-      ],
-      "_file": "plato-republic.yaml"
-    },
-    {
-      "id": "virgil-aeneid",
-      "gutenbergId": 228,
-      "title": "The Aeneid",
-      "subtitle": "Translated by John Dryden",
-      "authors": [
-        "Virgil"
-      ],
-      "language": "en",
-      "year": -19,
-      "shelf": "foundations",
-      "sort": 40,
-      "status": "ready",
-      "blurb": "Empire’s founding myth — duty over desire, Rome rising from Troy’s ash. The bridge from Greek epic to Latin destiny.\n",
-      "cover": "covers/virgil-aeneid.svg",
-      "cloth": {
-        "board": "#1a3028",
-        "spine": "#0e1c18",
-        "foil": "#c9b27a",
-        "endpaper": "#243c32"
-      },
-      "spineMotif": "laurel",
-      "binding": {
-        "height": 0.95,
-        "depth": 1.02,
+        "height": 1,
+        "depth": 1,
         "thickness": 1
       },
       "readerTheme": {
-        "displayFamily": "Cormorant Garamond",
-        "bodyFamily": "Source Serif 4",
-        "ink": "#101814",
-        "paper": "#eaf2ec",
-        "accent": "#3d6b5c",
+        "displayFamily": "Cinzel",
+        "bodyFamily": "EB Garamond",
+        "ink": "#111",
+        "paper": "#F8F5EE",
+        "accent": "#D4AF37",
         "measureCh": 60,
         "dropCaps": true
       },
       "samplePages": [
         {
-          "title": "The Aeneid",
-          "body": "Virgil · John Dryden"
-        },
-        {
-          "title": "Alexandria",
-          "body": "Arms and the man — bound for the long voyage."
+          "title": "plato-republic",
+          "body": "Alexandria"
         }
       ],
-      "_file": "virgil-aeneid.yaml"
-    },
-    {
-      "id": "augustine-confessions",
-      "gutenbergId": 3296,
-      "title": "The Confessions",
-      "subtitle": "of Saint Augustine",
-      "authors": [
-        "Augustine of Hippo"
-      ],
-      "language": "en",
-      "year": 400,
-      "shelf": "foundations",
-      "sort": 50,
-      "status": "ready",
-      "blurb": "The first great Western autobiography of the soul. Restlessness, grace, and a mind turning toward God in public.\n",
-      "cover": "covers/augustine-confessions.svg",
-      "cloth": {
-        "board": "#2a2018",
-        "spine": "#16120e",
-        "foil": "#e0c48a",
-        "endpaper": "#3a3024"
-      },
-      "spineMotif": "flame",
-      "binding": {
-        "height": 0.92,
-        "depth": 0.94,
-        "thickness": 0.9
-      },
-      "readerTheme": {
-        "displayFamily": "Cormorant Garamond",
-        "bodyFamily": "Source Serif 4",
-        "ink": "#14100c",
-        "paper": "#f6efe4",
-        "accent": "#7a5a30",
-        "measureCh": 58,
-        "dropCaps": true
-      },
-      "samplePages": [
-        {
-          "title": "The Confessions",
-          "body": "Augustine of Hippo"
-        },
-        {
-          "title": "Alexandria",
-          "body": "Our hearts are restless — until they find a lasting shelf."
-        }
-      ],
-      "_file": "augustine-confessions.yaml"
+      "_file": "plato-republic.yaml"
     }
   ],
   "allVolumes": [
@@ -255,94 +230,170 @@
       "id": "bible-kjv",
       "gutenbergId": 10,
       "title": "The Holy Bible",
-      "subtitle": "King James Version",
+      "status": "ready",
+      "shelf": "foundations",
+      "sort": 10,
       "authors": [
-        "Trad."
+        "Canonical Assembly"
       ],
       "language": "en",
       "year": 1611,
-      "shelf": "foundations",
-      "sort": 10,
-      "status": "ready",
-      "blurb": "The book that taught the English-speaking world how to speak of God, law, and conscience. Poetry and commandment in one binding.\n",
+      "blurb": "Sacred text.",
       "cover": "covers/bible-kjv.svg",
       "cloth": {
-        "board": "#2a1218",
-        "spine": "#14080c",
-        "foil": "#c9a45c",
-        "endpaper": "#3a1c22"
+        "board": "#3A1316",
+        "spine": "#3A1316",
+        "foil": "#D4AF37",
+        "endpaper": "#3A1316"
       },
       "spineMotif": "cross",
       "binding": {
         "height": 1,
-        "depth": 0.96,
-        "thickness": 1.35
+        "depth": 1,
+        "thickness": 1.3
       },
       "readerTheme": {
-        "displayFamily": "Cormorant Garamond",
-        "bodyFamily": "Source Serif 4",
-        "ink": "#1a1210",
-        "paper": "#f4eadc",
-        "accent": "#8b3a3a",
+        "displayFamily": "Cinzel",
+        "bodyFamily": "EB Garamond",
+        "ink": "#1C1B1A",
+        "paper": "#F2EBD9",
+        "accent": "#D4AF37",
         "measureCh": 58,
         "dropCaps": true
       },
       "samplePages": [
         {
-          "title": "The Holy Bible",
-          "body": "King James Version"
-        },
-        {
-          "title": "Alexandria",
-          "body": "Curated among the founding volumes of this working collection."
+          "title": "Bible",
+          "body": "KJV"
         }
       ],
       "_file": "bible-kjv.yaml"
     },
     {
-      "id": "homer-iliad",
-      "gutenbergId": 6130,
-      "title": "The Iliad",
-      "subtitle": "Translated by Samuel Butler",
-      "authors": [
-        "Homer"
-      ],
-      "language": "en",
-      "year": -750,
+      "id": "aristotle-ethics",
+      "gutenbergId": 8438,
+      "title": "aristotle-ethics",
+      "status": "ready",
       "shelf": "foundations",
       "sort": 20,
-      "status": "ready",
-      "blurb": "Rage, honor, and the cost of glory. The first great Western poem of war — and of what war does to the living.\n",
-      "cover": "covers/homer-iliad.svg",
+      "authors": [
+        "Trad."
+      ],
+      "language": "en",
+      "year": 0,
+      "blurb": "Canonical volume.",
+      "cover": "covers/aristotle-ethics.svg",
       "cloth": {
-        "board": "#3a2814",
-        "spine": "#1e140a",
-        "foil": "#d4a574",
-        "endpaper": "#4a3420"
+        "board": "#222",
+        "spine": "#111",
+        "foil": "#D4AF37",
+        "endpaper": "#222"
       },
-      "spineMotif": "meander",
+      "spineMotif": "cross",
       "binding": {
-        "height": 0.94,
+        "height": 1,
         "depth": 1,
-        "thickness": 1.05
+        "thickness": 1
       },
       "readerTheme": {
-        "displayFamily": "Cormorant Garamond",
-        "bodyFamily": "Source Serif 4",
-        "ink": "#181208",
-        "paper": "#f2e8d8",
-        "accent": "#8b5a2b",
+        "displayFamily": "Cinzel",
+        "bodyFamily": "EB Garamond",
+        "ink": "#111",
+        "paper": "#F8F5EE",
+        "accent": "#D4AF37",
         "measureCh": 60,
         "dropCaps": true
       },
       "samplePages": [
         {
-          "title": "The Iliad",
-          "body": "Homer · Samuel Butler"
-        },
+          "title": "aristotle-ethics",
+          "body": "Alexandria"
+        }
+      ],
+      "_file": "aristotle-ethics.yaml"
+    },
+    {
+      "id": "aurelius-meditations",
+      "gutenbergId": 2680,
+      "title": "aurelius-meditations",
+      "status": "ready",
+      "shelf": "foundations",
+      "sort": 20,
+      "authors": [
+        "Trad."
+      ],
+      "language": "en",
+      "year": 0,
+      "blurb": "Canonical volume.",
+      "cover": "covers/aurelius-meditations.svg",
+      "cloth": {
+        "board": "#222",
+        "spine": "#111",
+        "foil": "#D4AF37",
+        "endpaper": "#222"
+      },
+      "spineMotif": "cross",
+      "binding": {
+        "height": 1,
+        "depth": 1,
+        "thickness": 1
+      },
+      "readerTheme": {
+        "displayFamily": "Cinzel",
+        "bodyFamily": "EB Garamond",
+        "ink": "#111",
+        "paper": "#F8F5EE",
+        "accent": "#D4AF37",
+        "measureCh": 60,
+        "dropCaps": true
+      },
+      "samplePages": [
         {
-          "title": "Alexandria",
-          "body": "Sing, goddess — from a shelf built for lasting company."
+          "title": "aurelius-meditations",
+          "body": "Alexandria"
+        }
+      ],
+      "_file": "aurelius-meditations.yaml"
+    },
+    {
+      "id": "homer-iliad",
+      "gutenbergId": 6130,
+      "title": "homer-iliad",
+      "status": "ready",
+      "shelf": "foundations",
+      "sort": 20,
+      "authors": [
+        "Trad."
+      ],
+      "language": "en",
+      "year": 0,
+      "blurb": "Canonical volume.",
+      "cover": "covers/homer-iliad.svg",
+      "cloth": {
+        "board": "#222",
+        "spine": "#111",
+        "foil": "#D4AF37",
+        "endpaper": "#222"
+      },
+      "spineMotif": "cross",
+      "binding": {
+        "height": 1,
+        "depth": 1,
+        "thickness": 1
+      },
+      "readerTheme": {
+        "displayFamily": "Cinzel",
+        "bodyFamily": "EB Garamond",
+        "ink": "#111",
+        "paper": "#F8F5EE",
+        "accent": "#D4AF37",
+        "measureCh": 60,
+        "dropCaps": true
+      },
+      "samplePages": [
+        {
+          "title": "homer-iliad",
+          "body": "Alexandria"
         }
       ],
       "_file": "homer-iliad.yaml"
@@ -350,146 +401,45 @@
     {
       "id": "plato-republic",
       "gutenbergId": 1497,
-      "title": "The Republic",
-      "subtitle": "Translated by Benjamin Jowett",
+      "title": "plato-republic",
+      "status": "ready",
+      "shelf": "foundations",
+      "sort": 20,
       "authors": [
-        "Plato"
+        "Trad."
       ],
       "language": "en",
-      "year": -375,
-      "shelf": "foundations",
-      "sort": 30,
-      "status": "ready",
-      "blurb": "Justice argued until the city becomes a soul. Still the West’s longest conversation about how we ought to live together.\n",
+      "year": 0,
+      "blurb": "Canonical volume.",
       "cover": "covers/plato-republic.svg",
       "cloth": {
-        "board": "#1a2438",
-        "spine": "#0e1420",
-        "foil": "#c4b896",
-        "endpaper": "#243048"
+        "board": "#222",
+        "spine": "#111",
+        "foil": "#D4AF37",
+        "endpaper": "#222"
       },
-      "spineMotif": "cave",
+      "spineMotif": "cross",
       "binding": {
-        "height": 0.97,
-        "depth": 0.98,
-        "thickness": 0.95
-      },
-      "readerTheme": {
-        "displayFamily": "Cormorant Garamond",
-        "bodyFamily": "Source Serif 4",
-        "ink": "#101820",
-        "paper": "#eef2f6",
-        "accent": "#3d5a80",
-        "measureCh": 60,
-        "dropCaps": true
-      },
-      "samplePages": [
-        {
-          "title": "The Republic",
-          "body": "Plato · Benjamin Jowett"
-        },
-        {
-          "title": "Alexandria",
-          "body": "Leave the cave — then return to the shelf."
-        }
-      ],
-      "_file": "plato-republic.yaml"
-    },
-    {
-      "id": "virgil-aeneid",
-      "gutenbergId": 228,
-      "title": "The Aeneid",
-      "subtitle": "Translated by John Dryden",
-      "authors": [
-        "Virgil"
-      ],
-      "language": "en",
-      "year": -19,
-      "shelf": "foundations",
-      "sort": 40,
-      "status": "ready",
-      "blurb": "Empire’s founding myth — duty over desire, Rome rising from Troy’s ash. The bridge from Greek epic to Latin destiny.\n",
-      "cover": "covers/virgil-aeneid.svg",
-      "cloth": {
-        "board": "#1a3028",
-        "spine": "#0e1c18",
-        "foil": "#c9b27a",
-        "endpaper": "#243c32"
-      },
-      "spineMotif": "laurel",
-      "binding": {
-        "height": 0.95,
-        "depth": 1.02,
+        "height": 1,
+        "depth": 1,
         "thickness": 1
       },
       "readerTheme": {
-        "displayFamily": "Cormorant Garamond",
-        "bodyFamily": "Source Serif 4",
-        "ink": "#101814",
-        "paper": "#eaf2ec",
-        "accent": "#3d6b5c",
+        "displayFamily": "Cinzel",
+        "bodyFamily": "EB Garamond",
+        "ink": "#111",
+        "paper": "#F8F5EE",
+        "accent": "#D4AF37",
         "measureCh": 60,
         "dropCaps": true
       },
       "samplePages": [
         {
-          "title": "The Aeneid",
-          "body": "Virgil · John Dryden"
-        },
-        {
-          "title": "Alexandria",
-          "body": "Arms and the man — bound for the long voyage."
+          "title": "plato-republic",
+          "body": "Alexandria"
         }
       ],
-      "_file": "virgil-aeneid.yaml"
-    },
-    {
-      "id": "augustine-confessions",
-      "gutenbergId": 3296,
-      "title": "The Confessions",
-      "subtitle": "of Saint Augustine",
-      "authors": [
-        "Augustine of Hippo"
-      ],
-      "language": "en",
-      "year": 400,
-      "shelf": "foundations",
-      "sort": 50,
-      "status": "ready",
-      "blurb": "The first great Western autobiography of the soul. Restlessness, grace, and a mind turning toward God in public.\n",
-      "cover": "covers/augustine-confessions.svg",
-      "cloth": {
-        "board": "#2a2018",
-        "spine": "#16120e",
-        "foil": "#e0c48a",
-        "endpaper": "#3a3024"
-      },
-      "spineMotif": "flame",
-      "binding": {
-        "height": 0.92,
-        "depth": 0.94,
-        "thickness": 0.9
-      },
-      "readerTheme": {
-        "displayFamily": "Cormorant Garamond",
-        "bodyFamily": "Source Serif 4",
-        "ink": "#14100c",
-        "paper": "#f6efe4",
-        "accent": "#7a5a30",
-        "measureCh": 58,
-        "dropCaps": true
-      },
-      "samplePages": [
-        {
-          "title": "The Confessions",
-          "body": "Augustine of Hippo"
-        },
-        {
-          "title": "Alexandria",
-          "body": "Our hearts are restless — until they find a lasting shelf."
-        }
-      ],
-      "_file": "augustine-confessions.yaml"
+      "_file": "plato-republic.yaml"
     }
   ],
   "stats": {

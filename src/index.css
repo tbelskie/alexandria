@@ -1,0 +1,39 @@
+@import 'tailwindcss';
+@import '@fontsource/cinzel-decorative/400.css';
+@import '@fontsource/cinzel-decorative/700.css';
+@import '@fontsource/cinzel/500.css';
+@import '@fontsource/cinzel/600.css';
+@import '@fontsource/eb-garamond/400.css';
+@import '@fontsource/eb-garamond/500.css';
+@import '@fontsource/eb-garamond/600.css';
+@import '@fontsource/cormorant-garamond/latin-500.css';
+@import '@fontsource/cormorant-garamond/latin-600.css';
+
+@theme {
+  --font-display: 'Cinzel Decorative', 'Cinzel', Georgia, serif;
+  --font-display-alt: 'Cinzel', 'Cormorant Garamond', Georgia, serif;
+  --font-reader: 'EB Garamond', 'Source Serif 4', Georgia, serif;
+  --color-oxblood: #3a1316;
+  --color-olive: #2b3227;
+  --color-ultramarine: #121c2b;
+  --color-antique-black: #141416;
+  --color-imperial-purple: #2a182e;
+  --color-sea-slate: #1a242c;
+  --color-foil-gold: #d4af37;
+  --color-vellum: #f8f5ee;
+  --color-monastery: #131315;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+  height: 100%;
+  background: #0a0b0f;
+  color: #f3ebdc;
+}
+
+* {
+  box-sizing: border-box;
+}

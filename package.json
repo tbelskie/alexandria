@@ -6,9 +6,9 @@
   "description": "A curated open-source digital library — what Project Gutenberg’s front door should have been.",
   "license": "MIT",
   "scripts": {
-    "predev": "npm run catalog:build && npm run covers",
+    "predev": "npm run catalog:build",
     "dev": "vite",
-    "prebuild": "npm run catalog:build && npm run covers",
+    "prebuild": "npm run catalog:build",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "catalog:build": "node scripts/catalog-build.mjs",
@@ -17,8 +17,13 @@
     "lint": "oxlint"
   },
   "dependencies": {
+    "@fontsource/cinzel": "^5.3.0",
+    "@fontsource/cinzel-decorative": "^5.3.0",
     "@fontsource/cormorant-garamond": "^5.2.8",
+    "@fontsource/eb-garamond": "^5.3.0",
     "@fontsource/source-serif-4": "^5.2.9",
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.7.0",
     "jszip": "^3.10.1",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
@@ -26,6 +31,7 @@
     "yaml": "^2.7.0"
   },
   "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
     "@types/chrome": "^0.1.11",
     "@types/node": "^24.13.2",
     "@types/react": "^19.2.17",
@@ -33,6 +39,7 @@
     "@types/three": "^0.172.0",
     "@vitejs/plugin-react": "^6.0.3",
     "oxlint": "^1.71.0",
+    "tailwindcss": "^4.3.3",
     "typescript": "~6.0.2",
     "vite": "^8.1.1"
   }

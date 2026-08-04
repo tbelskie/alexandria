@@ -1,5 +1,6 @@
 import { defineConfig, type Plugin } from 'vite'
 import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
 import { cpSync, existsSync, mkdirSync, writeFileSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { createReadStream, statSync } from 'node:fs'
@@ -119,5 +120,5 @@ export default defineConfig({
   build: {
     chunkSizeWarningLimit: 1200,
   },
-  plugins: [react(), alexandriaEpubs(), alexandriaPwa()],
+  plugins: [react(), tailwindcss(), alexandriaEpubs(), alexandriaPwa()],
 })

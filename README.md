@@ -4,7 +4,7 @@
 
 **Live:** [tbelskie.github.io/alexandria](https://tbelskie.github.io/alexandria/)
 
-Free. Open source. No ads. No accounts. A five-volume working collection — Bible, Iliad, Republic, Aeneid, Confessions — face-out on a crafted shelf, with a reading ritual that doesn’t feel like an archive dump.
+Free. Open source. No ads. No accounts. A five-volume working collection — Bible, Republic, Nicomachean Ethics, Meditations, Iliad — with oxblood/olive leather bindings, metallic foil shaders, and a reading ritual that doesn’t feel like an archive dump.
 
 > Enter the library. Open a volume. Read.
 

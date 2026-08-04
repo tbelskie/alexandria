@@ -5,7 +5,7 @@
   display: grid;
   grid-template-rows: auto 1fr auto;
   color: var(--ink);
-  font-family: var(--body), 'Source Serif 4', Georgia, serif;
+  font-family: var(--body), 'EB Garamond', Georgia, serif;
   background: #0c0e14;
 }
 
