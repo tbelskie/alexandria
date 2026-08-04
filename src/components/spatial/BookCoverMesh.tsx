@@ -262,10 +262,12 @@ export function BookCoverMesh({ spec, selected = false, coverOpen = 0 }: Props) 
     }
     if (group.current) {
       const baseY = h / 2
-      const targetY = selected ? baseY + 0.028 : baseY
-      const targetZ = selected ? 0.05 : 0
-      group.current.position.y += (targetY - group.current.position.y) * 0.14
-      group.current.position.z += (targetZ - group.current.position.z) * 0.14
+      // Quiet lift — shelf stays put; only the volume eases forward a hair
+      const k = 1 - Math.exp(-dt * 8)
+      const targetY = selected ? baseY + 0.018 : baseY
+      const targetZ = selected ? 0.028 : 0
+      group.current.position.y += (targetY - group.current.position.y) * k
+      group.current.position.z += (targetZ - group.current.position.z) * k
     }
   })
 
