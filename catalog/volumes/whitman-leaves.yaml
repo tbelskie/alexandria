@@ -1,0 +1,33 @@
+id: whitman-leaves
+gutenbergId: 1322
+title: Leaves of Grass
+authors:
+  - Walt Whitman
+language: en
+year: 1855
+shelf: verse
+sort: 10
+status: ready
+blurb: >
+  A self large enough to hold a continent. Free verse before free verse had a
+  committee.
+cover: covers/whitman-leaves.svg
+cloth:
+  board: "#2a3a28"
+  spine: "#182018"
+  foil: "#d4c48a"
+  endpaper: "#3a4a32"
+spineMotif: grass
+readerTheme:
+  displayFamily: "Cormorant Garamond"
+  bodyFamily: "Source Serif 4"
+  ink: "#141810"
+  paper: "#f2f0e4"
+  accent: "#5a7a40"
+  measureCh: 56
+  dropCaps: false
+samplePages:
+  - title: Leaves of Grass
+    body: Walt Whitman
+  - title: A note from Alexandria
+    body: Contain multitudes; turn pages one at a time.

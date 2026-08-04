@@ -1,0 +1,33 @@
+id: doyle-adventures
+gutenbergId: 1661
+title: The Adventures of Sherlock Holmes
+authors:
+  - Arthur Conan Doyle
+language: en
+year: 1892
+shelf: tale
+sort: 20
+status: ready
+blurb: >
+  Observation as a sport. Baker Street still rents rooms to anyone who prefers
+  the clue to the crowd.
+cover: covers/doyle-adventures.svg
+cloth:
+  board: "#3b2416"
+  spine: "#24160e"
+  foil: "#d4a574"
+  endpaper: "#4a3020"
+spineMotif: pipe
+readerTheme:
+  displayFamily: "Cormorant Garamond"
+  bodyFamily: "Source Serif 4"
+  ink: "#1a120c"
+  paper: "#f4eadc"
+  accent: "#8b5a2b"
+  measureCh: 60
+  dropCaps: true
+samplePages:
+  - title: The Adventures of Sherlock Holmes
+    body: Arthur Conan Doyle
+  - title: A note from Alexandria
+    body: Deduce slowly. Watson is watching.

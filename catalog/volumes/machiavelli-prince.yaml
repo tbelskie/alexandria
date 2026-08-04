@@ -1,0 +1,33 @@
+id: machiavelli-prince
+gutenbergId: 1232
+title: The Prince
+authors:
+  - Niccolò Machiavelli
+language: en
+year: 1532
+shelf: essay
+sort: 10
+status: ready
+blurb: >
+  Power without perfume. Still required reading for anyone who confuses
+  virtue with victory.
+cover: covers/machiavelli-prince.svg
+cloth:
+  board: "#3a1818"
+  spine: "#220e0e"
+  foil: "#d4b060"
+  endpaper: "#4a2424"
+spineMotif: crown
+readerTheme:
+  displayFamily: "Cormorant Garamond"
+  bodyFamily: "Source Serif 4"
+  ink: "#180c0c"
+  paper: "#f0e4d6"
+  accent: "#8b3030"
+  measureCh: 58
+  dropCaps: false
+samplePages:
+  - title: The Prince
+    body: Niccolò Machiavelli
+  - title: A note from Alexandria
+    body: Read it; then wash your hands.

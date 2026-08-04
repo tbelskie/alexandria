@@ -1,0 +1,36 @@
+id: shelley-frankenstein
+gutenbergId: 84
+title: Frankenstein
+subtitle: or, The Modern Prometheus
+authors:
+  - Mary Wollstonecraft Shelley
+language: en
+year: 1818
+shelf: novel
+sort: 10
+status: ready
+blurb: >
+  A creature assembled from ambition and abandonment. Still the clearest warning
+  about making what you will not love.
+cover: covers/shelley-frankenstein.svg
+cloth:
+  board: "#2a3340"
+  spine: "#1a222c"
+  foil: "#c9a45c"
+  endpaper: "#3d2a28"
+spineMotif: lightning
+readerTheme:
+  displayFamily: "Cormorant Garamond"
+  bodyFamily: "Source Serif 4"
+  ink: "#1c1410"
+  paper: "#f3ebdc"
+  accent: "#8b3a5c"
+  measureCh: 62
+  dropCaps: true
+samplePages:
+  - title: Frankenstein
+    body: or, The Modern Prometheus
+  - title: A note from Alexandria
+    body: >
+      This volume is public domain. The binding, blurb, and reading room are
+      curated for Alexandria’s working collection.

@@ -1,0 +1,33 @@
+id: dickens-two-cities
+gutenbergId: 98
+title: A Tale of Two Cities
+authors:
+  - Charles Dickens
+language: en
+year: 1859
+shelf: novel
+sort: 40
+status: ready
+blurb: >
+  The best of times compressed into a blade. Revolution, sacrifice, and a
+  sentence everyone remembers for the wrong reasons — and the right ones.
+cover: covers/dickens-two-cities.svg
+cloth:
+  board: "#2a1f18"
+  spine: "#16100c"
+  foil: "#c9a45c"
+  endpaper: "#3a2818"
+spineMotif: guillotine
+readerTheme:
+  displayFamily: "Cormorant Garamond"
+  bodyFamily: "Source Serif 4"
+  ink: "#16100c"
+  paper: "#f0e6d8"
+  accent: "#7a3b2e"
+  measureCh: 62
+  dropCaps: true
+samplePages:
+  - title: A Tale of Two Cities
+    body: Charles Dickens
+  - title: A note from Alexandria
+    body: It was the best of shelves…

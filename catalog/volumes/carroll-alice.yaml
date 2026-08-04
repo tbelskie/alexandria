@@ -1,0 +1,35 @@
+id: carroll-alice
+gutenbergId: 11
+title: Alice’s Adventures in Wonderland
+subtitle: null
+authors:
+  - Lewis Carroll
+language: en
+year: 1865
+shelf: tale
+sort: 10
+status: ready
+blurb: >
+  Logic wearing a waistcoat. A rabbit hole that still teaches children (and
+  adults) how nonsense keeps its own rules.
+cover: covers/carroll-alice.svg
+cloth:
+  board: "#1e3a2a"
+  spine: "#12241a"
+  foil: "#d4a574"
+  endpaper: "#2f4a38"
+spineMotif: cards
+readerTheme:
+  displayFamily: "Cormorant Garamond"
+  bodyFamily: "Source Serif 4"
+  ink: "#142018"
+  paper: "#eef5ea"
+  accent: "#7d9b76"
+  measureCh: 58
+  dropCaps: true
+samplePages:
+  - title: Alice’s Adventures in Wonderland
+    body: Lewis Carroll
+  - title: A note from Alexandria
+    body: >
+      Begin at the beginning — or don’t. Wonderland rarely minds.

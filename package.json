@@ -1,0 +1,39 @@
+{
+  "name": "alexandria",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "A curated open-source digital library — what Project Gutenberg’s front door should have been.",
+  "license": "MIT",
+  "scripts": {
+    "predev": "npm run catalog:build && npm run covers",
+    "dev": "vite",
+    "prebuild": "npm run catalog:build && npm run covers",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "catalog:build": "node scripts/catalog-build.mjs",
+    "catalog:fetch": "node scripts/catalog-fetch.mjs",
+    "covers": "node scripts/generate-covers.mjs",
+    "lint": "oxlint"
+  },
+  "dependencies": {
+    "@fontsource/cormorant-garamond": "^5.2.8",
+    "@fontsource/source-serif-4": "^5.2.9",
+    "jszip": "^3.10.1",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "three": "^0.172.0",
+    "yaml": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.1.11",
+    "@types/node": "^24.13.2",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@types/three": "^0.172.0",
+    "@vitejs/plugin-react": "^6.0.3",
+    "oxlint": "^1.71.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.1.1"
+  }
+}

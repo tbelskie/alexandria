@@ -1,0 +1,34 @@
+id: thoreau-walden
+gutenbergId: 205
+title: Walden
+subtitle: or, Life in the Woods
+authors:
+  - Henry David Thoreau
+language: en
+year: 1854
+shelf: essay
+sort: 20
+status: ready
+blurb: >
+  A pond as an argument. Still the cleanest invitation to own fewer things and
+  notice more of them.
+cover: covers/thoreau-walden.svg
+cloth:
+  board: "#243820"
+  spine: "#142018"
+  foil: "#b8c99a"
+  endpaper: "#2a4030"
+spineMotif: leaf
+readerTheme:
+  displayFamily: "Cormorant Garamond"
+  bodyFamily: "Source Serif 4"
+  ink: "#121a10"
+  paper: "#eef2e6"
+  accent: "#4a6b3a"
+  measureCh: 58
+  dropCaps: true
+samplePages:
+  - title: Walden
+    body: Henry David Thoreau
+  - title: A note from Alexandria
+    body: Simplify the shelf; deepen the reading.

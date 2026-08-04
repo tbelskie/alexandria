@@ -1,0 +1,33 @@
+id: kafka-metamorphosis
+gutenbergId: 5200
+title: Metamorphosis
+authors:
+  - Franz Kafka
+language: en
+year: 1915
+shelf: tale
+sort: 30
+status: ready
+blurb: >
+  One morning, something irreversible. Still the shortest path into modern
+  dread — and odd tenderness.
+cover: covers/kafka-metamorphosis.svg
+cloth:
+  board: "#2a2830"
+  spine: "#16141c"
+  foil: "#a8a0b8"
+  endpaper: "#3a3440"
+spineMotif: insect
+readerTheme:
+  displayFamily: "Cormorant Garamond"
+  bodyFamily: "Source Serif 4"
+  ink: "#141218"
+  paper: "#ebe8e2"
+  accent: "#5a4a6a"
+  measureCh: 58
+  dropCaps: true
+samplePages:
+  - title: Metamorphosis
+    body: Franz Kafka
+  - title: A note from Alexandria
+    body: Do not apologize for the shell.

@@ -1,0 +1,33 @@
+id: stoker-dracula
+gutenbergId: 345
+title: Dracula
+authors:
+  - Bram Stoker
+language: en
+year: 1897
+shelf: novel
+sort: 30
+status: ready
+blurb: >
+  Letters, logs, and dread accumulating by post. The vampire novel that still
+  knows how to arrive after dark.
+cover: covers/stoker-dracula.svg
+cloth:
+  board: "#1a1210"
+  spine: "#0e0a08"
+  foil: "#a03030"
+  endpaper: "#2a1814"
+spineMotif: crest
+readerTheme:
+  displayFamily: "Cormorant Garamond"
+  bodyFamily: "Source Serif 4"
+  ink: "#140c0a"
+  paper: "#ebe4d8"
+  accent: "#8b2e2e"
+  measureCh: 61
+  dropCaps: true
+samplePages:
+  - title: Dracula
+    body: Bram Stoker
+  - title: A note from Alexandria
+    body: Keep the lamp low. The count prefers it.

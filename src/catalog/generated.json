@@ -1,0 +1,1062 @@
+{
+  "generatedAt": "2026-08-04T16:06:01.164Z",
+  "shelves": [
+    {
+      "id": "novel",
+      "title": "Novel",
+      "subtitle": "Stories that still hold a room",
+      "sort": 10
+    },
+    {
+      "id": "myth",
+      "title": "Myth & Epic",
+      "subtitle": "Older than the binding",
+      "sort": 20
+    },
+    {
+      "id": "essay",
+      "title": "Essay",
+      "subtitle": "Thinking aloud, on paper",
+      "sort": 30
+    },
+    {
+      "id": "verse",
+      "title": "Verse",
+      "subtitle": "Lines that keep their shape",
+      "sort": 40
+    },
+    {
+      "id": "tale",
+      "title": "Tale",
+      "subtitle": "Shorter doors into larger rooms",
+      "sort": 50
+    }
+  ],
+  "volumes": [
+    {
+      "id": "shelley-frankenstein",
+      "gutenbergId": 84,
+      "title": "Frankenstein",
+      "subtitle": "or, The Modern Prometheus",
+      "authors": [
+        "Mary Wollstonecraft Shelley"
+      ],
+      "language": "en",
+      "year": 1818,
+      "shelf": "novel",
+      "sort": 10,
+      "status": "ready",
+      "blurb": "A creature assembled from ambition and abandonment. Still the clearest warning about making what you will not love.\n",
+      "cover": "covers/shelley-frankenstein.svg",
+      "cloth": {
+        "board": "#2a3340",
+        "spine": "#1a222c",
+        "foil": "#c9a45c",
+        "endpaper": "#3d2a28"
+      },
+      "spineMotif": "lightning",
+      "readerTheme": {
+        "displayFamily": "Cormorant Garamond",
+        "bodyFamily": "Source Serif 4",
+        "ink": "#1c1410",
+        "paper": "#f3ebdc",
+        "accent": "#8b3a5c",
+        "measureCh": 62,
+        "dropCaps": true
+      },
+      "samplePages": [
+        {
+          "title": "Frankenstein",
+          "body": "or, The Modern Prometheus"
+        },
+        {
+          "title": "A note from Alexandria",
+          "body": "This volume is public domain. The binding, blurb, and reading room are curated for Alexandria’s working collection.\n"
+        }
+      ],
+      "_file": "shelley-frankenstein.yaml"
+    },
+    {
+      "id": "austen-pride",
+      "gutenbergId": 1342,
+      "title": "Pride and Prejudice",
+      "subtitle": null,
+      "authors": [
+        "Jane Austen"
+      ],
+      "language": "en",
+      "year": 1813,
+      "shelf": "novel",
+      "sort": 20,
+      "status": "ready",
+      "blurb": "Wit sharpened to a social weapon. Still the best argument that manners are a form of moral attention.\n",
+      "cover": "covers/austen-pride.svg",
+      "cloth": {
+        "board": "#3a2f4a",
+        "spine": "#241c30",
+        "foil": "#e6d5a8",
+        "endpaper": "#5c3d4a"
+      },
+      "spineMotif": "flourish",
+      "readerTheme": {
+        "displayFamily": "Cormorant Garamond",
+        "bodyFamily": "Source Serif 4",
+        "ink": "#1a1218",
+        "paper": "#f7f0e6",
+        "accent": "#6b3a55",
+        "measureCh": 60,
+        "dropCaps": true
+      },
+      "samplePages": [
+        {
+          "title": "Pride and Prejudice",
+          "body": "Jane Austen"
+        },
+        {
+          "title": "A note from Alexandria",
+          "body": "Curated for the shelf — not scraped into a list. Read slowly; Austen rewards it.\n"
+        }
+      ],
+      "_file": "austen-pride.yaml"
+    },
+    {
+      "id": "stoker-dracula",
+      "gutenbergId": 345,
+      "title": "Dracula",
+      "authors": [
+        "Bram Stoker"
+      ],
+      "language": "en",
+      "year": 1897,
+      "shelf": "novel",
+      "sort": 30,
+      "status": "ready",
+      "blurb": "Letters, logs, and dread accumulating by post. The vampire novel that still knows how to arrive after dark.\n",
+      "cover": "covers/stoker-dracula.svg",
+      "cloth": {
+        "board": "#1a1210",
+        "spine": "#0e0a08",
+        "foil": "#a03030",
+        "endpaper": "#2a1814"
+      },
+      "spineMotif": "crest",
+      "readerTheme": {
+        "displayFamily": "Cormorant Garamond",
+        "bodyFamily": "Source Serif 4",
+        "ink": "#140c0a",
+        "paper": "#ebe4d8",
+        "accent": "#8b2e2e",
+        "measureCh": 61,
+        "dropCaps": true
+      },
+      "samplePages": [
+        {
+          "title": "Dracula",
+          "body": "Bram Stoker"
+        },
+        {
+          "title": "A note from Alexandria",
+          "body": "Keep the lamp low. The count prefers it."
+        }
+      ],
+      "_file": "stoker-dracula.yaml"
+    },
+    {
+      "id": "dickens-two-cities",
+      "gutenbergId": 98,
+      "title": "A Tale of Two Cities",
+      "authors": [
+        "Charles Dickens"
+      ],
+      "language": "en",
+      "year": 1859,
+      "shelf": "novel",
+      "sort": 40,
+      "status": "ready",
+      "blurb": "The best of times compressed into a blade. Revolution, sacrifice, and a sentence everyone remembers for the wrong reasons — and the right ones.\n",
+      "cover": "covers/dickens-two-cities.svg",
+      "cloth": {
+        "board": "#2a1f18",
+        "spine": "#16100c",
+        "foil": "#c9a45c",
+        "endpaper": "#3a2818"
+      },
+      "spineMotif": "guillotine",
+      "readerTheme": {
+        "displayFamily": "Cormorant Garamond",
+        "bodyFamily": "Source Serif 4",
+        "ink": "#16100c",
+        "paper": "#f0e6d8",
+        "accent": "#7a3b2e",
+        "measureCh": 62,
+        "dropCaps": true
+      },
+      "samplePages": [
+        {
+          "title": "A Tale of Two Cities",
+          "body": "Charles Dickens"
+        },
+        {
+          "title": "A note from Alexandria",
+          "body": "It was the best of shelves…"
+        }
+      ],
+      "_file": "dickens-two-cities.yaml"
+    },
+    {
+      "id": "bronte-jane-eyre",
+      "gutenbergId": 1260,
+      "title": "Jane Eyre",
+      "authors": [
+        "Charlotte Brontë"
+      ],
+      "language": "en",
+      "year": 1847,
+      "shelf": "novel",
+      "sort": 50,
+      "status": "ready",
+      "blurb": "A plain governess with an unplain will. Gothic weather, moral heat, and a voice that still refuses to be small.\n",
+      "cover": "covers/bronte-jane-eyre.svg",
+      "cloth": {
+        "board": "#2f3a2a",
+        "spine": "#1a2218",
+        "foil": "#c9b27a",
+        "endpaper": "#3a3428"
+      },
+      "spineMotif": "thorn",
+      "readerTheme": {
+        "displayFamily": "Cormorant Garamond",
+        "bodyFamily": "Source Serif 4",
+        "ink": "#141810",
+        "paper": "#f2ebe0",
+        "accent": "#4a5c3a",
+        "measureCh": 60,
+        "dropCaps": true
+      },
+      "samplePages": [
+        {
+          "title": "Jane Eyre",
+          "body": "Charlotte Brontë"
+        },
+        {
+          "title": "A note from Alexandria",
+          "body": "Reader, she opened the volume."
+        }
+      ],
+      "_file": "bronte-jane-eyre.yaml"
+    },
+    {
+      "id": "homer-odyssey",
+      "gutenbergId": 1727,
+      "title": "The Odyssey",
+      "subtitle": "Translated by Samuel Butler",
+      "authors": [
+        "Homer"
+      ],
+      "language": "en",
+      "year": -700,
+      "shelf": "myth",
+      "sort": 10,
+      "status": "ready",
+      "blurb": "Home as a problem that takes ten years to solve. Still the map for anyone who has been away too long.\n",
+      "cover": "covers/homer-odyssey.svg",
+      "cloth": {
+        "board": "#1b2433",
+        "spine": "#101820",
+        "foil": "#a8c4d4",
+        "endpaper": "#2a3848"
+      },
+      "spineMotif": "wave",
+      "readerTheme": {
+        "displayFamily": "Cormorant Garamond",
+        "bodyFamily": "Source Serif 4",
+        "ink": "#101820",
+        "paper": "#e8eef4",
+        "accent": "#3d6b8c",
+        "measureCh": 64,
+        "dropCaps": true
+      },
+      "samplePages": [
+        {
+          "title": "The Odyssey",
+          "body": "Homer · Samuel Butler translation"
+        },
+        {
+          "title": "A note from Alexandria",
+          "body": "An epic for the shelf — measured, not summarized."
+        }
+      ],
+      "_file": "homer-odyssey.yaml"
+    },
+    {
+      "id": "machiavelli-prince",
+      "gutenbergId": 1232,
+      "title": "The Prince",
+      "authors": [
+        "Niccolò Machiavelli"
+      ],
+      "language": "en",
+      "year": 1532,
+      "shelf": "essay",
+      "sort": 10,
+      "status": "ready",
+      "blurb": "Power without perfume. Still required reading for anyone who confuses virtue with victory.\n",
+      "cover": "covers/machiavelli-prince.svg",
+      "cloth": {
+        "board": "#3a1818",
+        "spine": "#220e0e",
+        "foil": "#d4b060",
+        "endpaper": "#4a2424"
+      },
+      "spineMotif": "crown",
+      "readerTheme": {
+        "displayFamily": "Cormorant Garamond",
+        "bodyFamily": "Source Serif 4",
+        "ink": "#180c0c",
+        "paper": "#f0e4d6",
+        "accent": "#8b3030",
+        "measureCh": 58,
+        "dropCaps": false
+      },
+      "samplePages": [
+        {
+          "title": "The Prince",
+          "body": "Niccolò Machiavelli"
+        },
+        {
+          "title": "A note from Alexandria",
+          "body": "Read it; then wash your hands."
+        }
+      ],
+      "_file": "machiavelli-prince.yaml"
+    },
+    {
+      "id": "thoreau-walden",
+      "gutenbergId": 205,
+      "title": "Walden",
+      "subtitle": "or, Life in the Woods",
+      "authors": [
+        "Henry David Thoreau"
+      ],
+      "language": "en",
+      "year": 1854,
+      "shelf": "essay",
+      "sort": 20,
+      "status": "ready",
+      "blurb": "A pond as an argument. Still the cleanest invitation to own fewer things and notice more of them.\n",
+      "cover": "covers/thoreau-walden.svg",
+      "cloth": {
+        "board": "#243820",
+        "spine": "#142018",
+        "foil": "#b8c99a",
+        "endpaper": "#2a4030"
+      },
+      "spineMotif": "leaf",
+      "readerTheme": {
+        "displayFamily": "Cormorant Garamond",
+        "bodyFamily": "Source Serif 4",
+        "ink": "#121a10",
+        "paper": "#eef2e6",
+        "accent": "#4a6b3a",
+        "measureCh": 58,
+        "dropCaps": true
+      },
+      "samplePages": [
+        {
+          "title": "Walden",
+          "body": "Henry David Thoreau"
+        },
+        {
+          "title": "A note from Alexandria",
+          "body": "Simplify the shelf; deepen the reading."
+        }
+      ],
+      "_file": "thoreau-walden.yaml"
+    },
+    {
+      "id": "whitman-leaves",
+      "gutenbergId": 1322,
+      "title": "Leaves of Grass",
+      "authors": [
+        "Walt Whitman"
+      ],
+      "language": "en",
+      "year": 1855,
+      "shelf": "verse",
+      "sort": 10,
+      "status": "ready",
+      "blurb": "A self large enough to hold a continent. Free verse before free verse had a committee.\n",
+      "cover": "covers/whitman-leaves.svg",
+      "cloth": {
+        "board": "#2a3a28",
+        "spine": "#182018",
+        "foil": "#d4c48a",
+        "endpaper": "#3a4a32"
+      },
+      "spineMotif": "grass",
+      "readerTheme": {
+        "displayFamily": "Cormorant Garamond",
+        "bodyFamily": "Source Serif 4",
+        "ink": "#141810",
+        "paper": "#f2f0e4",
+        "accent": "#5a7a40",
+        "measureCh": 56,
+        "dropCaps": false
+      },
+      "samplePages": [
+        {
+          "title": "Leaves of Grass",
+          "body": "Walt Whitman"
+        },
+        {
+          "title": "A note from Alexandria",
+          "body": "Contain multitudes; turn pages one at a time."
+        }
+      ],
+      "_file": "whitman-leaves.yaml"
+    },
+    {
+      "id": "carroll-alice",
+      "gutenbergId": 11,
+      "title": "Alice’s Adventures in Wonderland",
+      "subtitle": null,
+      "authors": [
+        "Lewis Carroll"
+      ],
+      "language": "en",
+      "year": 1865,
+      "shelf": "tale",
+      "sort": 10,
+      "status": "ready",
+      "blurb": "Logic wearing a waistcoat. A rabbit hole that still teaches children (and adults) how nonsense keeps its own rules.\n",
+      "cover": "covers/carroll-alice.svg",
+      "cloth": {
+        "board": "#1e3a2a",
+        "spine": "#12241a",
+        "foil": "#d4a574",
+        "endpaper": "#2f4a38"
+      },
+      "spineMotif": "cards",
+      "readerTheme": {
+        "displayFamily": "Cormorant Garamond",
+        "bodyFamily": "Source Serif 4",
+        "ink": "#142018",
+        "paper": "#eef5ea",
+        "accent": "#7d9b76",
+        "measureCh": 58,
+        "dropCaps": true
+      },
+      "samplePages": [
+        {
+          "title": "Alice’s Adventures in Wonderland",
+          "body": "Lewis Carroll"
+        },
+        {
+          "title": "A note from Alexandria",
+          "body": "Begin at the beginning — or don’t. Wonderland rarely minds.\n"
+        }
+      ],
+      "_file": "carroll-alice.yaml"
+    },
+    {
+      "id": "doyle-adventures",
+      "gutenbergId": 1661,
+      "title": "The Adventures of Sherlock Holmes",
+      "authors": [
+        "Arthur Conan Doyle"
+      ],
+      "language": "en",
+      "year": 1892,
+      "shelf": "tale",
+      "sort": 20,
+      "status": "ready",
+      "blurb": "Observation as a sport. Baker Street still rents rooms to anyone who prefers the clue to the crowd.\n",
+      "cover": "covers/doyle-adventures.svg",
+      "cloth": {
+        "board": "#3b2416",
+        "spine": "#24160e",
+        "foil": "#d4a574",
+        "endpaper": "#4a3020"
+      },
+      "spineMotif": "pipe",
+      "readerTheme": {
+        "displayFamily": "Cormorant Garamond",
+        "bodyFamily": "Source Serif 4",
+        "ink": "#1a120c",
+        "paper": "#f4eadc",
+        "accent": "#8b5a2b",
+        "measureCh": 60,
+        "dropCaps": true
+      },
+      "samplePages": [
+        {
+          "title": "The Adventures of Sherlock Holmes",
+          "body": "Arthur Conan Doyle"
+        },
+        {
+          "title": "A note from Alexandria",
+          "body": "Deduce slowly. Watson is watching."
+        }
+      ],
+      "_file": "doyle-adventures.yaml"
+    },
+    {
+      "id": "kafka-metamorphosis",
+      "gutenbergId": 5200,
+      "title": "Metamorphosis",
+      "authors": [
+        "Franz Kafka"
+      ],
+      "language": "en",
+      "year": 1915,
+      "shelf": "tale",
+      "sort": 30,
+      "status": "ready",
+      "blurb": "One morning, something irreversible. Still the shortest path into modern dread — and odd tenderness.\n",
+      "cover": "covers/kafka-metamorphosis.svg",
+      "cloth": {
+        "board": "#2a2830",
+        "spine": "#16141c",
+        "foil": "#a8a0b8",
+        "endpaper": "#3a3440"
+      },
+      "spineMotif": "insect",
+      "readerTheme": {
+        "displayFamily": "Cormorant Garamond",
+        "bodyFamily": "Source Serif 4",
+        "ink": "#141218",
+        "paper": "#ebe8e2",
+        "accent": "#5a4a6a",
+        "measureCh": 58,
+        "dropCaps": true
+      },
+      "samplePages": [
+        {
+          "title": "Metamorphosis",
+          "body": "Franz Kafka"
+        },
+        {
+          "title": "A note from Alexandria",
+          "body": "Do not apologize for the shell."
+        }
+      ],
+      "_file": "kafka-metamorphosis.yaml"
+    }
+  ],
+  "allVolumes": [
+    {
+      "id": "shelley-frankenstein",
+      "gutenbergId": 84,
+      "title": "Frankenstein",
+      "subtitle": "or, The Modern Prometheus",
+      "authors": [
+        "Mary Wollstonecraft Shelley"
+      ],
+      "language": "en",
+      "year": 1818,
+      "shelf": "novel",
+      "sort": 10,
+      "status": "ready",
+      "blurb": "A creature assembled from ambition and abandonment. Still the clearest warning about making what you will not love.\n",
+      "cover": "covers/shelley-frankenstein.svg",
+      "cloth": {
+        "board": "#2a3340",
+        "spine": "#1a222c",
+        "foil": "#c9a45c",
+        "endpaper": "#3d2a28"
+      },
+      "spineMotif": "lightning",
+      "readerTheme": {
+        "displayFamily": "Cormorant Garamond",
+        "bodyFamily": "Source Serif 4",
+        "ink": "#1c1410",
+        "paper": "#f3ebdc",
+        "accent": "#8b3a5c",
+        "measureCh": 62,
+        "dropCaps": true
+      },
+      "samplePages": [
+        {
+          "title": "Frankenstein",
+          "body": "or, The Modern Prometheus"
+        },
+        {
+          "title": "A note from Alexandria",
+          "body": "This volume is public domain. The binding, blurb, and reading room are curated for Alexandria’s working collection.\n"
+        }
+      ],
+      "_file": "shelley-frankenstein.yaml"
+    },
+    {
+      "id": "austen-pride",
+      "gutenbergId": 1342,
+      "title": "Pride and Prejudice",
+      "subtitle": null,
+      "authors": [
+        "Jane Austen"
+      ],
+      "language": "en",
+      "year": 1813,
+      "shelf": "novel",
+      "sort": 20,
+      "status": "ready",
+      "blurb": "Wit sharpened to a social weapon. Still the best argument that manners are a form of moral attention.\n",
+      "cover": "covers/austen-pride.svg",
+      "cloth": {
+        "board": "#3a2f4a",
+        "spine": "#241c30",
+        "foil": "#e6d5a8",
+        "endpaper": "#5c3d4a"
+      },
+      "spineMotif": "flourish",
+      "readerTheme": {
+        "displayFamily": "Cormorant Garamond",
+        "bodyFamily": "Source Serif 4",
+        "ink": "#1a1218",
+        "paper": "#f7f0e6",
+        "accent": "#6b3a55",
+        "measureCh": 60,
+        "dropCaps": true
+      },
+      "samplePages": [
+        {
+          "title": "Pride and Prejudice",
+          "body": "Jane Austen"
+        },
+        {
+          "title": "A note from Alexandria",
+          "body": "Curated for the shelf — not scraped into a list. Read slowly; Austen rewards it.\n"
+        }
+      ],
+      "_file": "austen-pride.yaml"
+    },
+    {
+      "id": "stoker-dracula",
+      "gutenbergId": 345,
+      "title": "Dracula",
+      "authors": [
+        "Bram Stoker"
+      ],
+      "language": "en",
+      "year": 1897,
+      "shelf": "novel",
+      "sort": 30,
+      "status": "ready",
+      "blurb": "Letters, logs, and dread accumulating by post. The vampire novel that still knows how to arrive after dark.\n",
+      "cover": "covers/stoker-dracula.svg",
+      "cloth": {
+        "board": "#1a1210",
+        "spine": "#0e0a08",
+        "foil": "#a03030",
+        "endpaper": "#2a1814"
+      },
+      "spineMotif": "crest",
+      "readerTheme": {
+        "displayFamily": "Cormorant Garamond",
+        "bodyFamily": "Source Serif 4",
+        "ink": "#140c0a",
+        "paper": "#ebe4d8",
+        "accent": "#8b2e2e",
+        "measureCh": 61,
+        "dropCaps": true
+      },
+      "samplePages": [
+        {
+          "title": "Dracula",
+          "body": "Bram Stoker"
+        },
+        {
+          "title": "A note from Alexandria",
+          "body": "Keep the lamp low. The count prefers it."
+        }
+      ],
+      "_file": "stoker-dracula.yaml"
+    },
+    {
+      "id": "dickens-two-cities",
+      "gutenbergId": 98,
+      "title": "A Tale of Two Cities",
+      "authors": [
+        "Charles Dickens"
+      ],
+      "language": "en",
+      "year": 1859,
+      "shelf": "novel",
+      "sort": 40,
+      "status": "ready",
+      "blurb": "The best of times compressed into a blade. Revolution, sacrifice, and a sentence everyone remembers for the wrong reasons — and the right ones.\n",
+      "cover": "covers/dickens-two-cities.svg",
+      "cloth": {
+        "board": "#2a1f18",
+        "spine": "#16100c",
+        "foil": "#c9a45c",
+        "endpaper": "#3a2818"
+      },
+      "spineMotif": "guillotine",
+      "readerTheme": {
+        "displayFamily": "Cormorant Garamond",
+        "bodyFamily": "Source Serif 4",
+        "ink": "#16100c",
+        "paper": "#f0e6d8",
+        "accent": "#7a3b2e",
+        "measureCh": 62,
+        "dropCaps": true
+      },
+      "samplePages": [
+        {
+          "title": "A Tale of Two Cities",
+          "body": "Charles Dickens"
+        },
+        {
+          "title": "A note from Alexandria",
+          "body": "It was the best of shelves…"
+        }
+      ],
+      "_file": "dickens-two-cities.yaml"
+    },
+    {
+      "id": "bronte-jane-eyre",
+      "gutenbergId": 1260,
+      "title": "Jane Eyre",
+      "authors": [
+        "Charlotte Brontë"
+      ],
+      "language": "en",
+      "year": 1847,
+      "shelf": "novel",
+      "sort": 50,
+      "status": "ready",
+      "blurb": "A plain governess with an unplain will. Gothic weather, moral heat, and a voice that still refuses to be small.\n",
+      "cover": "covers/bronte-jane-eyre.svg",
+      "cloth": {
+        "board": "#2f3a2a",
+        "spine": "#1a2218",
+        "foil": "#c9b27a",
+        "endpaper": "#3a3428"
+      },
+      "spineMotif": "thorn",
+      "readerTheme": {
+        "displayFamily": "Cormorant Garamond",
+        "bodyFamily": "Source Serif 4",
+        "ink": "#141810",
+        "paper": "#f2ebe0",
+        "accent": "#4a5c3a",
+        "measureCh": 60,
+        "dropCaps": true
+      },
+      "samplePages": [
+        {
+          "title": "Jane Eyre",
+          "body": "Charlotte Brontë"
+        },
+        {
+          "title": "A note from Alexandria",
+          "body": "Reader, she opened the volume."
+        }
+      ],
+      "_file": "bronte-jane-eyre.yaml"
+    },
+    {
+      "id": "homer-odyssey",
+      "gutenbergId": 1727,
+      "title": "The Odyssey",
+      "subtitle": "Translated by Samuel Butler",
+      "authors": [
+        "Homer"
+      ],
+      "language": "en",
+      "year": -700,
+      "shelf": "myth",
+      "sort": 10,
+      "status": "ready",
+      "blurb": "Home as a problem that takes ten years to solve. Still the map for anyone who has been away too long.\n",
+      "cover": "covers/homer-odyssey.svg",
+      "cloth": {
+        "board": "#1b2433",
+        "spine": "#101820",
+        "foil": "#a8c4d4",
+        "endpaper": "#2a3848"
+      },
+      "spineMotif": "wave",
+      "readerTheme": {
+        "displayFamily": "Cormorant Garamond",
+        "bodyFamily": "Source Serif 4",
+        "ink": "#101820",
+        "paper": "#e8eef4",
+        "accent": "#3d6b8c",
+        "measureCh": 64,
+        "dropCaps": true
+      },
+      "samplePages": [
+        {
+          "title": "The Odyssey",
+          "body": "Homer · Samuel Butler translation"
+        },
+        {
+          "title": "A note from Alexandria",
+          "body": "An epic for the shelf — measured, not summarized."
+        }
+      ],
+      "_file": "homer-odyssey.yaml"
+    },
+    {
+      "id": "machiavelli-prince",
+      "gutenbergId": 1232,
+      "title": "The Prince",
+      "authors": [
+        "Niccolò Machiavelli"
+      ],
+      "language": "en",
+      "year": 1532,
+      "shelf": "essay",
+      "sort": 10,
+      "status": "ready",
+      "blurb": "Power without perfume. Still required reading for anyone who confuses virtue with victory.\n",
+      "cover": "covers/machiavelli-prince.svg",
+      "cloth": {
+        "board": "#3a1818",
+        "spine": "#220e0e",
+        "foil": "#d4b060",
+        "endpaper": "#4a2424"
+      },
+      "spineMotif": "crown",
+      "readerTheme": {
+        "displayFamily": "Cormorant Garamond",
+        "bodyFamily": "Source Serif 4",
+        "ink": "#180c0c",
+        "paper": "#f0e4d6",
+        "accent": "#8b3030",
+        "measureCh": 58,
+        "dropCaps": false
+      },
+      "samplePages": [
+        {
+          "title": "The Prince",
+          "body": "Niccolò Machiavelli"
+        },
+        {
+          "title": "A note from Alexandria",
+          "body": "Read it; then wash your hands."
+        }
+      ],
+      "_file": "machiavelli-prince.yaml"
+    },
+    {
+      "id": "thoreau-walden",
+      "gutenbergId": 205,
+      "title": "Walden",
+      "subtitle": "or, Life in the Woods",
+      "authors": [
+        "Henry David Thoreau"
+      ],
+      "language": "en",
+      "year": 1854,
+      "shelf": "essay",
+      "sort": 20,
+      "status": "ready",
+      "blurb": "A pond as an argument. Still the cleanest invitation to own fewer things and notice more of them.\n",
+      "cover": "covers/thoreau-walden.svg",
+      "cloth": {
+        "board": "#243820",
+        "spine": "#142018",
+        "foil": "#b8c99a",
+        "endpaper": "#2a4030"
+      },
+      "spineMotif": "leaf",
+      "readerTheme": {
+        "displayFamily": "Cormorant Garamond",
+        "bodyFamily": "Source Serif 4",
+        "ink": "#121a10",
+        "paper": "#eef2e6",
+        "accent": "#4a6b3a",
+        "measureCh": 58,
+        "dropCaps": true
+      },
+      "samplePages": [
+        {
+          "title": "Walden",
+          "body": "Henry David Thoreau"
+        },
+        {
+          "title": "A note from Alexandria",
+          "body": "Simplify the shelf; deepen the reading."
+        }
+      ],
+      "_file": "thoreau-walden.yaml"
+    },
+    {
+      "id": "whitman-leaves",
+      "gutenbergId": 1322,
+      "title": "Leaves of Grass",
+      "authors": [
+        "Walt Whitman"
+      ],
+      "language": "en",
+      "year": 1855,
+      "shelf": "verse",
+      "sort": 10,
+      "status": "ready",
+      "blurb": "A self large enough to hold a continent. Free verse before free verse had a committee.\n",
+      "cover": "covers/whitman-leaves.svg",
+      "cloth": {
+        "board": "#2a3a28",
+        "spine": "#182018",
+        "foil": "#d4c48a",
+        "endpaper": "#3a4a32"
+      },
+      "spineMotif": "grass",
+      "readerTheme": {
+        "displayFamily": "Cormorant Garamond",
+        "bodyFamily": "Source Serif 4",
+        "ink": "#141810",
+        "paper": "#f2f0e4",
+        "accent": "#5a7a40",
+        "measureCh": 56,
+        "dropCaps": false
+      },
+      "samplePages": [
+        {
+          "title": "Leaves of Grass",
+          "body": "Walt Whitman"
+        },
+        {
+          "title": "A note from Alexandria",
+          "body": "Contain multitudes; turn pages one at a time."
+        }
+      ],
+      "_file": "whitman-leaves.yaml"
+    },
+    {
+      "id": "carroll-alice",
+      "gutenbergId": 11,
+      "title": "Alice’s Adventures in Wonderland",
+      "subtitle": null,
+      "authors": [
+        "Lewis Carroll"
+      ],
+      "language": "en",
+      "year": 1865,
+      "shelf": "tale",
+      "sort": 10,
+      "status": "ready",
+      "blurb": "Logic wearing a waistcoat. A rabbit hole that still teaches children (and adults) how nonsense keeps its own rules.\n",
+      "cover": "covers/carroll-alice.svg",
+      "cloth": {
+        "board": "#1e3a2a",
+        "spine": "#12241a",
+        "foil": "#d4a574",
+        "endpaper": "#2f4a38"
+      },
+      "spineMotif": "cards",
+      "readerTheme": {
+        "displayFamily": "Cormorant Garamond",
+        "bodyFamily": "Source Serif 4",
+        "ink": "#142018",
+        "paper": "#eef5ea",
+        "accent": "#7d9b76",
+        "measureCh": 58,
+        "dropCaps": true
+      },
+      "samplePages": [
+        {
+          "title": "Alice’s Adventures in Wonderland",
+          "body": "Lewis Carroll"
+        },
+        {
+          "title": "A note from Alexandria",
+          "body": "Begin at the beginning — or don’t. Wonderland rarely minds.\n"
+        }
+      ],
+      "_file": "carroll-alice.yaml"
+    },
+    {
+      "id": "doyle-adventures",
+      "gutenbergId": 1661,
+      "title": "The Adventures of Sherlock Holmes",
+      "authors": [
+        "Arthur Conan Doyle"
+      ],
+      "language": "en",
+      "year": 1892,
+      "shelf": "tale",
+      "sort": 20,
+      "status": "ready",
+      "blurb": "Observation as a sport. Baker Street still rents rooms to anyone who prefers the clue to the crowd.\n",
+      "cover": "covers/doyle-adventures.svg",
+      "cloth": {
+        "board": "#3b2416",
+        "spine": "#24160e",
+        "foil": "#d4a574",
+        "endpaper": "#4a3020"
+      },
+      "spineMotif": "pipe",
+      "readerTheme": {
+        "displayFamily": "Cormorant Garamond",
+        "bodyFamily": "Source Serif 4",
+        "ink": "#1a120c",
+        "paper": "#f4eadc",
+        "accent": "#8b5a2b",
+        "measureCh": 60,
+        "dropCaps": true
+      },
+      "samplePages": [
+        {
+          "title": "The Adventures of Sherlock Holmes",
+          "body": "Arthur Conan Doyle"
+        },
+        {
+          "title": "A note from Alexandria",
+          "body": "Deduce slowly. Watson is watching."
+        }
+      ],
+      "_file": "doyle-adventures.yaml"
+    },
+    {
+      "id": "kafka-metamorphosis",
+      "gutenbergId": 5200,
+      "title": "Metamorphosis",
+      "authors": [
+        "Franz Kafka"
+      ],
+      "language": "en",
+      "year": 1915,
+      "shelf": "tale",
+      "sort": 30,
+      "status": "ready",
+      "blurb": "One morning, something irreversible. Still the shortest path into modern dread — and odd tenderness.\n",
+      "cover": "covers/kafka-metamorphosis.svg",
+      "cloth": {
+        "board": "#2a2830",
+        "spine": "#16141c",
+        "foil": "#a8a0b8",
+        "endpaper": "#3a3440"
+      },
+      "spineMotif": "insect",
+      "readerTheme": {
+        "displayFamily": "Cormorant Garamond",
+        "bodyFamily": "Source Serif 4",
+        "ink": "#141218",
+        "paper": "#ebe8e2",
+        "accent": "#5a4a6a",
+        "measureCh": 58,
+        "dropCaps": true
+      },
+      "samplePages": [
+        {
+          "title": "Metamorphosis",
+          "body": "Franz Kafka"
+        },
+        {
+          "title": "A note from Alexandria",
+          "body": "Do not apologize for the shell."
+        }
+      ],
+      "_file": "kafka-metamorphosis.yaml"
+    }
+  ],
+  "stats": {
+    "ready": 12,
+    "draft": 0,
+    "total": 12
+  }
+}

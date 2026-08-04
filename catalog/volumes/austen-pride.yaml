@@ -1,0 +1,35 @@
+id: austen-pride
+gutenbergId: 1342
+title: Pride and Prejudice
+subtitle: null
+authors:
+  - Jane Austen
+language: en
+year: 1813
+shelf: novel
+sort: 20
+status: ready
+blurb: >
+  Wit sharpened to a social weapon. Still the best argument that manners are
+  a form of moral attention.
+cover: covers/austen-pride.svg
+cloth:
+  board: "#3a2f4a"
+  spine: "#241c30"
+  foil: "#e6d5a8"
+  endpaper: "#5c3d4a"
+spineMotif: flourish
+readerTheme:
+  displayFamily: "Cormorant Garamond"
+  bodyFamily: "Source Serif 4"
+  ink: "#1a1218"
+  paper: "#f7f0e6"
+  accent: "#6b3a55"
+  measureCh: 60
+  dropCaps: true
+samplePages:
+  - title: Pride and Prejudice
+    body: Jane Austen
+  - title: A note from Alexandria
+    body: >
+      Curated for the shelf — not scraped into a list. Read slowly; Austen rewards it.

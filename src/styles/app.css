@@ -1,0 +1,195 @@
+.app {
+  position: relative;
+  height: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.shelf-host {
+  position: absolute;
+  inset: 0;
+}
+
+.shelf-host canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.25rem 1.5rem;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent);
+  pointer-events: none;
+}
+
+.brand {
+  margin: 0;
+  font-family: var(--display);
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  letter-spacing: 0.04em;
+  line-height: 1;
+}
+
+.tag,
+.count {
+  margin: 0.25rem 0 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.panel {
+  position: absolute;
+  z-index: 5;
+  left: 1.25rem;
+  bottom: 1.25rem;
+  width: min(26rem, calc(100vw - 2.5rem));
+  padding: 1.25rem 1.35rem 1.35rem;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  backdrop-filter: blur(16px);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.4);
+  animation: rise 500ms ease both;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.panel__kicker {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.7rem;
+  color: var(--accent);
+}
+
+.panel h1 {
+  margin: 0.35rem 0 0;
+  font-family: var(--display);
+  font-weight: 500;
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  letter-spacing: 0.02em;
+}
+
+.panel__sub,
+.panel__authors,
+.panel__blurb,
+.panel__hint {
+  color: var(--muted);
+}
+
+.panel__sub {
+  margin: 0.2rem 0 0;
+  font-style: italic;
+}
+
+.panel__authors {
+  margin: 0.45rem 0 0;
+}
+
+.panel__blurb {
+  margin: 0.85rem 0 0;
+  line-height: 1.55;
+}
+
+.panel__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.1rem;
+}
+
+.panel__hint {
+  margin: 0.85rem 0 0;
+  font-size: 0.78rem;
+}
+
+.btn {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--ink);
+  padding: 0.55rem 0.85rem;
+  cursor: pointer;
+}
+
+.btn--primary {
+  border-color: rgba(201, 164, 92, 0.5);
+  background: rgba(201, 164, 92, 0.18);
+}
+
+.markers {
+  position: absolute;
+  z-index: 5;
+  right: 1.25rem;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.marker {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid rgba(243, 235, 220, 0.35);
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+}
+
+.marker.is-active {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.empty {
+  min-height: 100%;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.empty h1 {
+  font-family: var(--display);
+  font-size: 3rem;
+  margin: 0;
+}
+
+@media (max-width: 720px) {
+  .markers {
+    right: auto;
+    left: 50%;
+    top: auto;
+    bottom: 0.75rem;
+    transform: translateX(-50%);
+    flex-direction: row;
+  }
+
+  .panel {
+    bottom: 2.5rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .panel {
+    animation: none;
+  }
+}
