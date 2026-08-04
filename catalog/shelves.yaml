@@ -1,22 +1,5 @@
-# Alexandria shelves — rooms / runs of the working collection
 shelves:
-  - id: novel
-    title: Novel
-    subtitle: Stories that still hold a room
+  - id: foundations
+    title: Foundations
+    subtitle: Five texts that still structure the West
     sort: 10
-  - id: myth
-    title: Myth & Epic
-    subtitle: Older than the binding
-    sort: 20
-  - id: essay
-    title: Essay
-    subtitle: Thinking aloud, on paper
-    sort: 30
-  - id: verse
-    title: Verse
-    subtitle: Lines that keep their shape
-    sort: 40
-  - id: tale
-    title: Tale
-    subtitle: Shorter doors into larger rooms
-    sort: 50

@@ -1,0 +1,38 @@
+id: bible-kjv
+gutenbergId: 10
+title: The Holy Bible
+subtitle: King James Version
+authors:
+  - Trad.
+language: en
+year: 1611
+shelf: foundations
+sort: 10
+status: ready
+blurb: >
+  The book that taught the English-speaking world how to speak of God, law,
+  and conscience. Poetry and commandment in one binding.
+cover: covers/bible-kjv.svg
+cloth:
+  board: "#2a1218"
+  spine: "#14080c"
+  foil: "#c9a45c"
+  endpaper: "#3a1c22"
+spineMotif: cross
+binding:
+  height: 1.0
+  depth: 0.96
+  thickness: 1.35
+readerTheme:
+  displayFamily: "Cormorant Garamond"
+  bodyFamily: "Source Serif 4"
+  ink: "#1a1210"
+  paper: "#f4eadc"
+  accent: "#8b3a3a"
+  measureCh: 58
+  dropCaps: true
+samplePages:
+  - title: The Holy Bible
+    body: King James Version
+  - title: Alexandria
+    body: Curated among the founding volumes of this working collection.

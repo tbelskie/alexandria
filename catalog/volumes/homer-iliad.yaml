@@ -1,0 +1,38 @@
+id: homer-iliad
+gutenbergId: 6130
+title: The Iliad
+subtitle: Translated by Samuel Butler
+authors:
+  - Homer
+language: en
+year: -750
+shelf: foundations
+sort: 20
+status: ready
+blurb: >
+  Rage, honor, and the cost of glory. The first great Western poem of war —
+  and of what war does to the living.
+cover: covers/homer-iliad.svg
+cloth:
+  board: "#3a2814"
+  spine: "#1e140a"
+  foil: "#d4a574"
+  endpaper: "#4a3420"
+spineMotif: meander
+binding:
+  height: 0.94
+  depth: 1.0
+  thickness: 1.05
+readerTheme:
+  displayFamily: "Cormorant Garamond"
+  bodyFamily: "Source Serif 4"
+  ink: "#181208"
+  paper: "#f2e8d8"
+  accent: "#8b5a2b"
+  measureCh: 60
+  dropCaps: true
+samplePages:
+  - title: The Iliad
+    body: Homer · Samuel Butler
+  - title: Alexandria
+    body: Sing, goddess — from a shelf built for lasting company.

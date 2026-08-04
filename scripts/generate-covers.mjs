@@ -46,6 +46,16 @@ function motifPaths(motif, foil) {
       return `<path d="M80 160 C85 120, 90 100, 95 70 M100 160 C105 110, 110 90, 112 65 M120 160 C125 115, 130 95, 135 70" stroke="${foil}" fill="none" stroke-width="1.5"/>`
     case 'insect':
       return `<ellipse cx="110" cy="120" rx="18" ry="28" fill="none" stroke="${foil}" stroke-width="2"/><path d="M92 110 L70 95 M128 110 L150 95 M92 130 L70 145 M128 130 L150 145" stroke="${foil}" stroke-width="1.5"/>`
+    case 'cross':
+      return `<circle cx="110" cy="120" r="36" fill="none" stroke="${foil}" stroke-width="2"/><path d="M110 88 V158 M92 108 H128" stroke="${foil}" stroke-width="2.5"/>`
+    case 'meander':
+      return `<path d="M70 110 H90 V130 H110 V110 H130 V130 H150" fill="none" stroke="${foil}" stroke-width="2"/><path d="M110 85 L118 105 H102 Z" fill="${foil}"/>`
+    case 'cave':
+      return `<path d="M70 140 A40 40 0 0 1 150 140" fill="none" stroke="${foil}" stroke-width="2"/><circle cx="110" cy="115" r="8" fill="${foil}" opacity="0.7"/>`
+    case 'laurel':
+      return `<path d="M110 80 V160 M95 100 C80 120 80 140 95 155 M125 100 C140 120 140 140 125 155" fill="none" stroke="${foil}" stroke-width="2"/>`
+    case 'flame':
+      return `<path d="M110 160 C140 130 130 100 110 80 C90 100 80 130 110 160 Z" fill="none" stroke="${foil}" stroke-width="2"/>`
     default:
       return `<circle cx="110" cy="120" r="24" fill="none" stroke="${foil}" stroke-width="2"/>`
   }

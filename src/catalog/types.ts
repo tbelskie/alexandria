@@ -12,6 +12,15 @@ export interface Cloth {
   endpaper: string
 }
 
+export interface Binding {
+  /** Relative height multiplier (1 = standard) */
+  height: number
+  /** Relative cover depth / width multiplier */
+  depth: number
+  /** Relative spine thickness multiplier */
+  thickness: number
+}
+
 export interface ReaderTheme {
   displayFamily: string
   bodyFamily: string
@@ -42,6 +51,7 @@ export interface Volume {
   cover: string
   cloth: Cloth
   spineMotif: string
+  binding: Binding
   readerTheme: ReaderTheme
   samplePages: SamplePage[]
 }

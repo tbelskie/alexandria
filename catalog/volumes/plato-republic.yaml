@@ -1,0 +1,38 @@
+id: plato-republic
+gutenbergId: 1497
+title: The Republic
+subtitle: Translated by Benjamin Jowett
+authors:
+  - Plato
+language: en
+year: -375
+shelf: foundations
+sort: 30
+status: ready
+blurb: >
+  Justice argued until the city becomes a soul. Still the West’s longest
+  conversation about how we ought to live together.
+cover: covers/plato-republic.svg
+cloth:
+  board: "#1a2438"
+  spine: "#0e1420"
+  foil: "#c4b896"
+  endpaper: "#243048"
+spineMotif: cave
+binding:
+  height: 0.97
+  depth: 0.98
+  thickness: 0.95
+readerTheme:
+  displayFamily: "Cormorant Garamond"
+  bodyFamily: "Source Serif 4"
+  ink: "#101820"
+  paper: "#eef2f6"
+  accent: "#3d5a80"
+  measureCh: 60
+  dropCaps: true
+samplePages:
+  - title: The Republic
+    body: Plato · Benjamin Jowett
+  - title: Alexandria
+    body: Leave the cave — then return to the shelf.

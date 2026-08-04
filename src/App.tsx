@@ -1,9 +1,9 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import catalogJson from './catalog/generated.json'
 import type { Catalog, Volume } from './catalog/types'
 import { loadLastShelfIndex, saveLastShelfIndex } from './lib/progress'
 import { Reader } from './reader/Reader'
-import { ShelfEngine } from './shelf/ShelfEngine'
+import { ShelfEngine, type ShelfMode } from './shelf/ShelfEngine'
 import './styles/app.css'
 
 const catalog = catalogJson as Catalog
@@ -14,18 +14,15 @@ export default function App() {
   const hostRef = useRef<HTMLDivElement>(null)
   const engineRef = useRef<ShelfEngine | null>(null)
   const [view, setView] = useState<View>('shelf')
-  const [index, setIndex] = useState(() => loadLastShelfIndex())
-  const [mode, setMode] = useState<'shelf' | 'inspect'>('shelf')
+  const [index, setIndex] = useState(() =>
+    Math.min(loadLastShelfIndex(), Math.max(0, catalog.volumes.length - 1)),
+  )
+  const [mode, setMode] = useState<ShelfMode>('shelf')
   const [activeVolume, setActiveVolume] = useState<Volume | null>(null)
   const [reducedMotion, setReducedMotion] = useState(false)
 
   const volumes = catalog.volumes
   const volume = volumes[index] ?? volumes[0]
-
-  const shelfLabel = useMemo(() => {
-    const shelf = catalog.shelves.find((s) => s.id === volume?.shelf)
-    return shelf?.title ?? 'Collection'
-  }, [volume])
 
   useEffect(() => {
     const mq = window.matchMedia('(prefers-reduced-motion: reduce)')
@@ -46,6 +43,7 @@ export default function App() {
         setIndex(i)
         saveLastShelfIndex(i)
       },
+      onModeChange: setMode,
       onOpenReader: (vol) => {
         setActiveVolume(vol)
         setView('reader')
@@ -56,113 +54,100 @@ export default function App() {
       engine.dispose()
       engineRef.current = null
     }
-    // Recreate when volume set or motion preference changes
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [volumes, reducedMotion])
-
-  useEffect(() => {
-    const id = window.setInterval(() => {
-      const eng = engineRef.current
-      if (!eng) return
-      setMode(eng.getMode())
-    }, 200)
-    return () => clearInterval(id)
-  }, [])
 
   if (!volumes.length) {
     return (
       <div className="empty">
         <h1>Alexandria</h1>
-        <p>No ready volumes yet. Mark a volume <code>status: ready</code> and run catalog:build.</p>
+        <p>No ready volumes in the working collection.</p>
       </div>
     )
   }
 
+  const foil = volume.cloth.foil
+
   return (
-    <div className="app">
+    <div className="app" style={{ ['--volume-foil' as string]: foil }}>
       <div ref={hostRef} className="shelf-host" aria-hidden={view === 'reader'} />
 
       {view === 'shelf' && (
         <>
-          <header className="top">
+          <header className="chrome chrome--top">
             <div>
               <p className="brand">Alexandria</p>
-              <p className="tag">A working collection · free forever</p>
+              <p className="eyebrow">Five foundations · Western canon</p>
             </div>
-            <p className="count">
-              {catalog.stats.ready} volumes · {shelfLabel}
+            <p className="meta">
+              {String(index + 1).padStart(2, '0')} / {String(volumes.length).padStart(2, '0')}
             </p>
           </header>
 
-          <aside className="panel" aria-live="polite">
-            <p className="panel__kicker">{shelfLabel}</p>
-            <h1>{volume.title}</h1>
-            {volume.subtitle && <p className="panel__sub">{volume.subtitle}</p>}
-            <p className="panel__authors">{volume.authors.join(', ')}</p>
-            <p className="panel__blurb">{volume.blurb}</p>
-            <div className="panel__actions">
+          <footer className="chrome chrome--bottom">
+            <div className="caption">
+              <p className="caption__index">
+                {String(index + 1).padStart(2, '0')} / {String(volumes.length).padStart(2, '0')}
+              </p>
+              <h1>{volume.title}</h1>
+              <p className="caption__sub">
+                {volume.subtitle ? `${volume.subtitle} · ` : ''}
+                {volume.authors.join(', ')}
+              </p>
+              <p className="caption__blurb">{volume.blurb}</p>
+            </div>
+
+            <div className="controls" role="group" aria-label="Shelf navigation">
+              <button type="button" className="btn" aria-label="Previous volume" onClick={() => engineRef.current?.prev()}>
+                ‹
+              </button>
               {mode === 'shelf' ? (
-                <>
-                  <button type="button" className="btn" onClick={() => engineRef.current?.prev()}>
-                    Previous
-                  </button>
-                  <button
-                    type="button"
-                    className="btn btn--primary"
-                    onClick={() => engineRef.current?.enterInspect()}
-                  >
-                    Pull from shelf
-                  </button>
-                  <button type="button" className="btn" onClick={() => engineRef.current?.next()}>
-                    Next
-                  </button>
-                </>
+                <button
+                  type="button"
+                  className="btn btn--primary"
+                  onClick={() => engineRef.current?.enterInspect()}
+                >
+                  Open
+                </button>
               ) : (
                 <>
                   <button type="button" className="btn" onClick={() => engineRef.current?.exitInspect()}>
-                    Return
-                  </button>
-                  <button
-                    type="button"
-                    className="btn"
-                    onClick={() => engineRef.current?.openCoverFully()}
-                  >
-                    Open cover
+                    Shelf
                   </button>
                   <button
                     type="button"
                     className="btn btn--primary"
                     onClick={() => {
-                      setActiveVolume(volume)
-                      setView('reader')
+                      if ((engineRef.current?.getMode() === 'inspect')) {
+                        setActiveVolume(volume)
+                        setView('reader')
+                      }
                     }}
                   >
-                    Begin reading
+                    Read
                   </button>
                 </>
               )}
+              <button type="button" className="btn" aria-label="Next volume" onClick={() => engineRef.current?.next()}>
+                ›
+              </button>
             </div>
-            <p className="panel__hint">
-              Wheel or arrows to browse · Enter to inspect · Esc to return
-            </p>
-          </aside>
 
-          <div className="markers" role="tablist" aria-label="Volumes">
-            {volumes.map((v, i) => (
-              <button
-                key={v.id}
-                type="button"
-                role="tab"
-                aria-selected={i === index}
-                className={`marker ${i === index ? 'is-active' : ''}`}
-                title={v.title}
-                onClick={() => {
-                  engineRef.current?.setIndex(i)
-                  setIndex(i)
-                }}
-              />
-            ))}
-          </div>
+            <div className="markers" role="tablist" aria-label="Volumes">
+              {volumes.map((v, i) => (
+                <button
+                  key={v.id}
+                  type="button"
+                  role="tab"
+                  aria-selected={i === index}
+                  aria-label={v.title}
+                  className={`marker ${i === index ? 'is-active' : ''}`}
+                  onClick={() => engineRef.current?.setIndex(i)}
+                />
+              ))}
+              <p className="hint">Wheel · arrows · select</p>
+            </div>
+          </footer>
         </>
       )}
 
