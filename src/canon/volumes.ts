@@ -1,6 +1,8 @@
 import { AlexandriaTokens } from '../styles/tokens'
 import type { BookVolumeSpec } from '../components/spatial/BookCoverMesh'
 
+const asset = (path: string) => `${import.meta.env.BASE_URL}covers/${path}`
+
 /** Canonical five — Foundations of the West */
 export const CANON: BookVolumeSpec[] = [
   {
@@ -11,6 +13,10 @@ export const CANON: BookVolumeSpec[] = [
     bindingColor: AlexandriaTokens.bindings.oxblood,
     foilKey: 'antiqueGold',
     motif: 'chi-ro-border',
+    coverArt: {
+      front: asset('cover-bible-front.jpg'),
+      spine: asset('cover-bible-spine.jpg'),
+    },
     width: 0.4,
     height: 0.66,
     depth: 0.085,
@@ -33,6 +39,10 @@ export const CANON: BookVolumeSpec[] = [
     bindingColor: AlexandriaTokens.bindings.oliveCloth,
     foilKey: 'polishedBrass',
     motif: 'palmette',
+    coverArt: {
+      front: asset('cover-republic-front.jpg'),
+      spine: asset('cover-republic-spine.jpg'),
+    },
     width: 0.42,
     height: 0.63,
     depth: 0.068,
@@ -54,6 +64,10 @@ export const CANON: BookVolumeSpec[] = [
     bindingColor: AlexandriaTokens.bindings.deepUltramarine,
     foilKey: 'burnishedCopper',
     motif: 'concentric',
+    coverArt: {
+      front: asset('cover-ethics-front.jpg'),
+      spine: asset('cover-ethics-spine.jpg'),
+    },
     width: 0.41,
     height: 0.62,
     depth: 0.07,
@@ -75,6 +89,10 @@ export const CANON: BookVolumeSpec[] = [
     bindingColor: AlexandriaTokens.bindings.antiqueBlack,
     foilKey: 'antiqueGold',
     motif: 'laurel',
+    coverArt: {
+      front: asset('cover-meditations-front.jpg'),
+      spine: asset('cover-meditations-spine.jpg'),
+    },
     width: 0.38,
     height: 0.58,
     depth: 0.055,
@@ -96,6 +114,10 @@ export const CANON: BookVolumeSpec[] = [
     bindingColor: AlexandriaTokens.bindings.seaSlate,
     foilKey: 'silverWave',
     motif: 'wave-anchor',
+    coverArt: {
+      front: asset('cover-iliad-front.jpg'),
+      spine: asset('cover-iliad-spine.jpg'),
+    },
     width: 0.43,
     height: 0.64,
     depth: 0.075,
