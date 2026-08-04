@@ -2,6 +2,8 @@
 
 **What Project Gutenberg’s front door should have been** — a curated digital library people actually want to enter.
 
+**Live:** [tbelskie.github.io/alexandria](https://tbelskie.github.io/alexandria/)
+
 Free. Open source. No ads. No accounts. A working collection of public-domain classics with a museum-quality shelf and a reading ritual that doesn’t feel like an archive dump.
 
 > Enter the library. Pull a volume. Read.
