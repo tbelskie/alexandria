@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { ErrorBoundary } from './components/ErrorBoundary'
 import { SpatialShelf } from './components/spatial/SpatialShelf'
 import type { BookVolumeSpec } from './components/spatial/BookCoverMesh'
 import { CANON } from './canon/volumes'
@@ -81,23 +82,25 @@ export default function App() {
   return (
     <div className="relative h-full min-h-full overflow-hidden bg-[#12141a] text-[#f3ebdc]">
       <div className="absolute inset-0" aria-hidden={view === 'reader'}>
-        <SpatialShelf
-          volumes={volumes}
-          index={index}
-          onIndexChange={(i) => {
-            setIndex(i)
-            saveLastShelfIndex(i)
-          }}
-          mode={mode}
-          onModeChange={setMode}
-          coverOpen={coverOpen}
-          onCoverOpenChange={setCoverOpen}
-          reducedMotion={reducedMotion}
-          onRead={(spec) => {
-            setActive(spec)
-            setView('reader')
-          }}
-        />
+        <ErrorBoundary>
+          <SpatialShelf
+            volumes={volumes}
+            index={index}
+            onIndexChange={(i) => {
+              setIndex(i)
+              saveLastShelfIndex(i)
+            }}
+            mode={mode}
+            onModeChange={setMode}
+            coverOpen={coverOpen}
+            onCoverOpenChange={setCoverOpen}
+            reducedMotion={reducedMotion}
+            onRead={(spec) => {
+              setActive(spec)
+              setView('reader')
+            }}
+          />
+        </ErrorBoundary>
       </div>
 
       {view === 'shelf' && (
